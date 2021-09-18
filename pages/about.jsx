@@ -1,12 +1,11 @@
 import Head from "next/head";
+import Meta from "../components/common/Meta";
 
 const about = () => {
     // const x = 5;
     return (
         <div>
-            <Head>
-                <title>About</title>
-            </Head>
+            <Meta title="about"/>
             {/*<style jsx>*/}
             {/*    {`*/}
             {/*        .title {*/}
